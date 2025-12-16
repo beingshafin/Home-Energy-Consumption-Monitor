@@ -17,6 +17,20 @@ A C-based command-line application to track and monitor home energy consumption.
 
 ## 🛠️ Usage
 
+### Modifying/Editing the Code in IDEs
+
+Depending on the IDE you use, there are small differences when opening and editing the code:
+
+- **VS Code**  
+  When opening the code in VS Code, make sure to open it with **DOS (CP437) encoding**. This ensures all characters display correctly, especially if the code contains special ASCII characters. To do this:
+
+  1. Open the file in VS Code.
+  2. Click the **UTF-8** label in the bottom-right corner of VS Code.
+  3. Select **Reopen with Encoding → DOS (CP437)**.
+
+- **Code::Blocks**  
+  No special encoding is needed. Simply open the project and edit the files normally.
+
 ### Compilation
 
 You can compile the program using a C compiler like `gcc`.
