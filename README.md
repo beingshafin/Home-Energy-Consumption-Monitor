@@ -36,15 +36,15 @@ Depending on the IDE you use, there are small differences when opening and editi
 You can compile the program using a C compiler like `gcc`.
 
 ```bash
-gcc hecm.c -o energy_monitor
+gcc hecm.c -o hecm.exe
 ```
 
 ### Running the Program
 
 Run the executable to start the interactive menu.
 
-```bash
-./energy_monitor
+```powershell
+./hecm.exe
 ```
 
 ### Menu Options
