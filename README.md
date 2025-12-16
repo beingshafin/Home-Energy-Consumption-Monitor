@@ -2,6 +2,10 @@
 
 A C-based command-line application to track and monitor home energy consumption. This tool allows users to record daily energy usage, breakdown consumption by appliance (HVAC, Lighting, Water Heater), and analyze the data to find peak consumption days.
 
+# Screenshot
+
+![screenshot](screenshot.png)
+
 ## 🚀 Features
 
 - **Add Daily Records**: Input date, total kWh, and specific appliance consumption.
@@ -48,10 +52,13 @@ Run the executable to start the interactive menu.
 ## 📝 Data Format
 
 The application stores data in `energy.txt` in the following CSV-like format:
+
 ```
 Date,Total_kWh,HVAC_kWh,Lighting_kWh,WaterHeater_kWh
 ```
+
 Example:
+
 ```
 2023-10-27,45.50,20.00,10.00,15.50
 ```
