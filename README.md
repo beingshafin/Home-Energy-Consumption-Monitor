@@ -2,7 +2,7 @@
 
 A C-based command-line application to track and monitor home energy consumption. This tool allows users to record daily energy usage, breakdown consumption by appliance (HVAC, Lighting, Water Heater), and analyze the data to find peak consumption days.
 
-# Screenshot
+## Screenshot
 
 ![screenshot](screenshot.png)
 
